@@ -1,0 +1,136 @@
+/*  
+Styles for:-- Profile Card React Application 
+File - index.css 
+Author: Chisom Okoye
+Date: 3rd June 2025
+Version: v1.0
+*/
+
+/* Reset & Box Sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Variables */
+:root {
+ /* Color Palette */
+ --primary-color: hsl(185, 75%, 39%); /* Dark cyan */
+ --secondary-color: hsl(229, 23%, 23%); /* Very Dak Saturated Blue */
+ --accent-color: hsl(227, 10%, 46%); /* Dark Grayish Blue */
+ --dark-gray: hsl(0, 0%, 59%); /* Dark Gray */
+
+ --background-color: #f8f9fa; /* Light Gray */
+ --text-color: #333; /* Dark Gray */
+ --light-text-color: #666;
+ --white: #fff;
+ --black: #000;
+ --border-color: #dee2e6;
+
+ color-scheme: light dark;
+ font-synthesis: none;
+ text-rendering: optimizeLegibility;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+
+/* Typography */
+--base-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Kumbh Sans", sans-serif;
+--heading-font-family: inherit; /* Can be changed for specific heading fonts */
+--base-font-size: 18px;
+--base-line-height: 1.5;
+
+/* Spacing */
+--space-sm: 0.5rem;
+--space-md: 1rem;
+--space-lg: 2rem;
+--space-xl: 3rem;
+ 
+/* Border Radius */
+--border-radius: 0.25rem;
+ 
+/* Breakpoints */
+--breakpoint-sm: 576px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 992px;
+--breakpoint-xl: 1200px;
+}
+
+
+/* Global Styles */
+body {
+  background-image: url(./assets/bg-pattern-top.svg), url(./assets/bg-pattern-bottom.svg); 
+  background-repeat: no-repeat no-repeat;
+  background-position: left -380px top -558px, bottom -670px right -350px;
+  background-size: contain contain;
+  background-color: var(--primary-color);
+  font-family: var(--base-font-family);
+  font-size: var(--base-font-size);
+  line-height: var(--base-line-height);
+  color: var(--text-color);
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  color: var(--text-color);
+  font-weight: 200;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+/* Remove list styles on ul, ol elements which suggests default styling will be removed. */
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  font-weight: 500;
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #0056b3;
+}
+
+button {
+  border-radius: var(--border-radius);
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: var(--secondary-color);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Responsive Styles */
+/* For small screens - Mobile - For screens less than or equal to 599px*/
+@media only screen and (max-width: 500px) {
+  body {
+    background-image: url(./assets/bg-pattern-top.svg), url(./assets/bg-pattern-bottom.svg); 
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    background-size: 150vw auto;
+    background-repeat: no-repeat, no-repeat;
+    background-color: var(--primary-color);
+  }
+}
+
+

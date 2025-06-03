@@ -1,0 +1,57 @@
+/*  
+Styles for:-- Profile Card React Application 
+File - App.css 
+Author: Chisom Okoye
+Date: 3rd June 2025
+Version: v1.0
+*/
+
+/* Root Element Styles */
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+          
+
+/* Utility Styles  */
+.container {
+  width: 88%; /* Adjust as needed */
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header Styles  */
+
+/* Navigation Styles */
+
+/* Styles for Main Content */
+
+
+/* Footer Styles */
+
+/* Responsive Styles */
+/* For small screens - Mobile - For screens less than or equal to 599px*/
+@media only screen and (max-width: 599px) {
+    
+  }
+
+/* For medium screens - Tablets - For screens from 600px and bigger */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* For large screens - Desktops - For screens 1200px and bigger */
+@media only screen and (min-width: 1200px) {
+  
+}
+
+
