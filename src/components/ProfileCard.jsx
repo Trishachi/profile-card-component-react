@@ -1,5 +1,6 @@
 import React from 'react';
 import './ProfileCard.css';
+import image from '../assets/image-victor.jpg';
 
 const ProfileCard = () => {
   return (
@@ -8,7 +9,7 @@ const ProfileCard = () => {
         
       </div>
       <div className="profile-image">
-        <img src="./assets/image-victor.jpg" alt="Profile Picture" />
+        <img src={image} alt="Profile Picture" />
       </div>
       <div className="profile-info">
         <p className="profile-name"><strong>Victor Crest</strong>
@@ -18,9 +19,20 @@ const ProfileCard = () => {
       </div>
       <hr />
       <div className="profile-stats">
-        <a href="#" className="social-link">LinkedIn</a>
-        <a href="#" className="social-link">GitHub</a>
-        <a href="#" className="social-link">Twitter</a>
+        <div className="row">
+          <div className="stats-col">
+            <p><strong>80K</strong></p>
+            <span className="category">Followers</span>
+          </div>
+          <div className="stats-col">
+            <p><strong>803K</strong></p>
+            <span className="category">Views</span>
+          </div>
+          <div className="stats-col">
+            <p><strong>1.4K</strong></p>
+            <span className="category">Likes</span>
+          </div>
+        </div>
       </div>      
     </div>
   );
