@@ -37,7 +37,7 @@ margin-bottom: -60px;
 }
 
 .profile-info {
-padding: 20px;
+padding-bottom: 20px;
 }
 
 .profile-age {
@@ -46,7 +46,7 @@ padding: 20px;
 
 .location {
   font-size: 14px;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 hr {
@@ -56,14 +56,14 @@ hr {
 
 .row {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 25px 10px;
 }
 
-.stats-col {
+/* .stats-col {
   flex: 1;
-}
+} */
 
 .category {
   font-size: 12px;

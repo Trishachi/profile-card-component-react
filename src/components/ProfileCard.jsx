@@ -4,16 +4,7 @@ import image from '../assets/image-victor.jpg';
 
 const ProfileCard = () => {
 
-  // const bannerStyle = {
-  //   backgroundImage: `url(${bannerImage})`,
-  //   backgroundSize: 'cover',
-  //   backgroundPosition: 'center',
-  //   backgroundRepeat: 'no-repeat',
-  //   height: '150px',
-  //   borderRadius: '15px 15px 0 0',
-  // };
-
-  return (
+return (
     <div className="profile-card">
       <div className="banner">
         
