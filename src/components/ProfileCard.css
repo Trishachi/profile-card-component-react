@@ -4,18 +4,18 @@
   background: white;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 2rem;  
   margin: 2rem auto;
   text-align: center;
 }
 
 .banner {
-background-image: url("./assets/bg-pattern-card.svg");
+background-image: url("../assets/bg-pattern-card.svg");
 background-repeat: no-repeat;
 background-size: cover;
 height: 150px;
+border-radius: 15px 15px 0 0;
+margin-bottom: -60px;
 }
-
 
 .profile-image {
   width: 120px;
@@ -24,41 +24,53 @@ height: 150px;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: var(--white);
+  padding: 3px;
 }
 
 .profile-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--white);
 }
 
-.profile-info h2 {
-  margin: 0 0 0.5rem 0;
-  color: #333;
-  font-size: 1.5rem;
+.profile-info {
+padding: 20px;
 }
 
-.job-title {
-  color: #666;
-  margin: 0 0 1.5rem 0;
+.profile-age {
+  padding: 0 10px;
 }
 
-.social-links {
+.location {
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+hr {
+  color: var(--accent-color);
+  opacity: 0.3;
+}
+
+.row {
   display: flex;
-  justify-content: center;
-  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 10px;
 }
 
-.social-link {
-  color: #333;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
+.stats-col {
+  flex: 1;
 }
 
-.social-link:hover {
-  color: #007bff;
+.category {
+  font-size: 12px;
+  margin-top: 0;
+  letter-spacing: 1px;
 }
+
 
 @media only screen and (max-width: 500px) {
   .profile-card {

@@ -3,13 +3,23 @@ import './ProfileCard.css';
 import image from '../assets/image-victor.jpg';
 
 const ProfileCard = () => {
+
+  // const bannerStyle = {
+  //   backgroundImage: `url(${bannerImage})`,
+  //   backgroundSize: 'cover',
+  //   backgroundPosition: 'center',
+  //   backgroundRepeat: 'no-repeat',
+  //   height: '150px',
+  //   borderRadius: '15px 15px 0 0',
+  // };
+
   return (
     <div className="profile-card">
       <div className="banner">
         
       </div>
       <div className="profile-image">
-        <img src={image} alt="Profile Picture" />
+        <img src={image} alt="Profile Picture"/>
       </div>
       <div className="profile-info">
         <p className="profile-name"><strong>Victor Crest</strong>
@@ -26,11 +36,11 @@ const ProfileCard = () => {
           </div>
           <div className="stats-col">
             <p><strong>803K</strong></p>
-            <span className="category">Views</span>
+            <span className="category">Likes</span>
           </div>
           <div className="stats-col">
             <p><strong>1.4K</strong></p>
-            <span className="category">Likes</span>
+            <span className="category">Photos</span>
           </div>
         </div>
       </div>      
