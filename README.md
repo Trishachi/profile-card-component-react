@@ -18,4 +18,10 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Responsive Design - Media Queries
 - [React](https://reactjs.org/) - JS library
 
+### Live Project
 
+[View Project](https://trishachi.github.io/profile-card-componentreact/)
+
+### Source Code
+
+[View Source Code](https://github.com/trishachi/profile-card-componentreact)
