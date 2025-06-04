@@ -20,8 +20,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Live Project
 
-[View Project](https://trishachi.github.io/profile-card-componentreact/)
+[View Project](https://trishachi.github.io/profile-card-component-react/)
 
 ### Source Code
 
-[View Source Code](https://github.com/trishachi/profile-card-componentreact)
+[View Source Code](https://github.com/trishachi/profile-card-component-react)
